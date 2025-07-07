@@ -8,11 +8,14 @@ body {
 .header {
   background-color: #2f2e41;
   color: white;
-  padding: 1rem 2rem;
+  padding: 1rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%; 
+  box-sizing: border-box; 
 }
+
 
 .header .logo {
   font-weight: bold;
